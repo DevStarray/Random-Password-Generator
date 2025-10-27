@@ -7,7 +7,7 @@ const number = "01234567879";
 const symbol = "@#$%^&*()_+~|}{[]></-=";
 
 const allChars = upperCase + lowerCase + number + symbol;
-
+// this is the function that perform the task
 function createPassword() {
   let password = "";
   password += upperCase[Math.floor(Math.random() * upperCase.length)];
